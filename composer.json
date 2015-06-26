@@ -1,6 +1,6 @@
 {
-    "name": "jaza/excel-service-provider",
-    "description": "An Excel ServiceProvider for Silex.",
+    "name": "braune-digital/excel-service-provider",
+    "description": "Fork of An Excel ServiceProvider for Silex.",
     "keywords": ["silex"],
     "license": "MIT",
     "authors": [
