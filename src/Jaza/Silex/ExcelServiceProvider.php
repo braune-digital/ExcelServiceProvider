@@ -14,7 +14,6 @@ use Silex\Application;
 use Silex\ServiceProviderInterface;
 
 use n3b\Bundle\Util\HttpFoundation\StreamResponse\StreamWriterWrapper;
-use n3b\Bundle\Util\HttpFoundation\StreamResponse\StreamResponse;
 
 use Jaza\Silex\ExcelContainer;
 
@@ -35,7 +34,7 @@ class ExcelServiceProvider implements ServiceProviderInterface
             
             $streamWriter = new StreamWriterWrapper('php://output');
             $streamWriter->setWriter($factory, 'save');
-            return new ExcelContainer($objPHPExcel, $streamWriter, StreamResponse);
+            return new ExcelContainer($objPHPExcel, $streamWriter);
         });
     }
 
