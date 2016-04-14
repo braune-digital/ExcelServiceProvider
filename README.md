@@ -1,6 +1,6 @@
 # ExcelServiceProvider
 
-*This is a forked project. The readme is taken from the source project. See next section.*
+:exclamation: *This is a forked project. The readme is taken from the source project. See next section.*
 
 An Excel ServiceProvider for [Silex](http://silex.sensiolabs.org).
 
