@@ -1,6 +1,6 @@
 # ExcelServiceProvider
 
-*This is a forked project. See next section.*
+*This is a forked project. The readme is taken from the source project. See next section.*
 
 An Excel ServiceProvider for [Silex](http://silex.sensiolabs.org).
 
@@ -10,7 +10,7 @@ I've only implemented Excel5 support, and I doubt that I will implement the othe
 
 ## Fork
 
-This is a simple fork of the ExcelService
+This is a simple fork of the ExcelServiceProvider (https://github.com/Jaza/ExcelServiceProvider) for Silex created by Jaza (https://github.com/Jaza). The fork simply allows to continue using the functionality in Silex 1.2.
 
 ## Installation
 
